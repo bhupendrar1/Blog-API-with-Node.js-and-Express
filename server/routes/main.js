@@ -91,7 +91,7 @@ router.get('/post/:id', async (req, res) => {
 router.post('/search', async (req, res) => {
   try {
     const locals = {
-      title: "Seach",
+      title: "Search",
       description: "Simple Blog created with NodeJs, Express & MongoDb."
     }
 
@@ -165,7 +165,7 @@ router.get('/about', (req, res) => {
 //     },
 //     {
 //       title: "NodeJs Limiting Network Traffic",
-//       body: "Learn how to limit netowrk traffic."
+//       body: "Learn how to limit network traffic."
 //     },
 //     {
 //       title: "Learn Morgan - HTTP Request logger for NodeJs",
